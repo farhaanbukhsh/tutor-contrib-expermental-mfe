@@ -1,0 +1,2 @@
+recursive-include tutorexpermental_mfe/patches *
+recursive-include tutorexpermental_mfe/templates *

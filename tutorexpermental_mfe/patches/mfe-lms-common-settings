@@ -1,0 +1,19 @@
+MFE_CONFIG["PARAGON_THEME_URLS"] = {
+        "core": {
+            "urls": {
+                "default": "https://cdn.jsdelivr.net/npm/@openedx/paragon@23.0.0-alpha.1/dist/core.min.css",
+                "brandOverride": "http://localhost:9100/core.min.css"
+            }
+        },
+        "variants": {
+            "light": {
+                "urls": {
+                    "default": "https://cdn.jsdelivr.net/npm/@openedx/paragon@23.0.0-alpha.1/dist/light.min.css",
+                    "brandOverride": "http://localhost:9100/light.min.css"
+                },
+                "default": True,
+                "dark": False
+            }
+        }
+}
+
